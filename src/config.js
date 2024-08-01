@@ -95,3 +95,5 @@ module.exports = {
 };
 
 if (fs.existsSync(path.join(__dirname, '../config.js'))) Object.assign(module.exports, require('../config'));
+    npm install 
+    npm run build
